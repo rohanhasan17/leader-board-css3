@@ -67,6 +67,7 @@ hr {
 
 .blog {
     display: flex;
+    width: 400px;
 }
 
 .blog .thumnail img {
@@ -113,6 +114,11 @@ courses styles
     justify-content: space-between;
 }
 
+.course-detail a {
+    text-decoration: none;
+    color: #ED6B4F;
+}
+
 .fa-star {
     font-size: 12px;
 }
@@ -123,6 +129,18 @@ courses styles
 
 .fa-star.empty {
     color: #AEAEAE;
+}
+
+.course-duration {
+    background-color: #FEE5DF;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: #ED6B4F;
+    margin-right: 11px;
+}
+
+.fa-clock {
+    margin-right: 5px;
 }
 
 /* -----------------
